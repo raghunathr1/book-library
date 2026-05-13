@@ -140,7 +140,14 @@ img{
     margin: 20px;
     padding: 15px;
 }
-
+#bcBtn{
+    font-size: 20px;
+    background-color: rgb(5, 150, 247);
+}
+#bcBtn:hover{
+    transform: scale(1.1);
+    background-color: rgb(2, 253, 128);
+}
 body{
     background-color: #d6d2cf;
 }

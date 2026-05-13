@@ -13,7 +13,7 @@ function NotFound() {
       <h2>404 - Page Not Found</h2>
       <h4>Try Again ....With Valid URL</h4>  
 
-      <button> <Link to="/">Go To Home</Link> </button>
+      <button id="bcBtn"> <Link to="/">Go To Home</Link> </button>
 
     </div>
   );
