@@ -1,0 +1,129 @@
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: rgb(68, 155, 150);
+    color: antiquewhite;
+    
+}
+.link{
+    color: #0e0e0e;
+    margin: 20px;
+}
+.inp{
+    width: 50%;
+    border: solid black 5px;
+    display: flex;
+    justify-content: center;
+}
+#in1{
+    display: flex;
+    justify-content: center;
+}
+#nav1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(166, 243, 233);
+    color: #0c0c0c;    
+}
+#head2{
+    display: flex;
+    margin-left: 250px;
+    gap: 20px;
+    font-size: 20px;
+    color: rgb(211, 208, 204);
+}
+.h3{
+    color: bisque;
+    
+}
+.h3:hover{
+    transform: scale(1.1);
+    background-color: rgb(44, 41, 46);
+    border: solid black 1px;
+}
+.book{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+#book1{
+    border: solid black 3px;
+    padding: 10px;
+    margin: 20px;
+}
+.bc{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+
+img{
+    border: solid black 3px;
+    box-shadow: 20px 10px 20px rgb(104, 150, 132);
+}
+.vwInf{
+    position: relative;
+    bottom: 320px;
+}
+#veDesc{
+    position: relative;
+    bottom: 200px;
+}
+#desc{
+    display: inline-block;
+    width: 350px;
+    margin-left: 20px;
+    border: solid black 2px;
+}
+#sel{
+    position: absolute;
+}
+.bTitle{
+    display: inline-block;
+    width: 350px;
+    margin-left: 20px;
+    border: solid black 2px;
+}
+#subBtn{
+    position: absolute;
+    left: 300px;
+    width: 200px;
+    background-color: rgb(228, 231, 5);
+   
+}
+#detBtn{
+   display: flex;
+   justify-content: center;
+}
+#backBtn{
+    position: relative;
+    right: 400px;
+    top: 25px;
+    height: 35px;
+    background-color: rgb(32, 247, 4);
+}
+#backBtn:hover{
+    transform: scale(1.1);
+    background-color: rgba(251, 255, 2, 0.822);
+    box-sizing: 30px;
+}
+
+#subBtn:hover{
+    transform: scale(1.1);
+    background-color: rgb(124, 243, 69);
+     border: solid black 3px;
+    border-radius: 10%;
+}
+#form{
+    border: solid black 3px;
+    padding: 10px;
+    font-size: 20px;
+}
+.viewInfo{
+    position: relative;
+    left: 600px;
+    bottom: 120px;
+}
+body{
+    background-color: #d6d2cf;
+}
