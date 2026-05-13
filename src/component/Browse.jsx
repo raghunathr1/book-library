@@ -38,29 +38,18 @@ function Browse() {
         <h1>Browse Books</h1>
 
         <ul>
-          <Link to="/browse/Fiction" className="link">
-            Fiction
-          </Link>
+          <Link to="/browse/Fiction" className="link"> Fiction </Link>
 
-          <Link to="/browse/Non-Fiction" className="link">
-            Non-Fiction
-          </Link>
+          <Link to="/browse/Non-Fiction" className="link"> Non-Fiction </Link>
 
-          <Link to="/browse/Sci-Fiction" className="link">
-            Sci-Fiction
-          </Link>
+          <Link to="/browse/Sci-Fiction" className="link"> Sci-Fiction </Link>
         </ul>
       </nav>
 
       <br />
 
       <div id="in1">
-        <input
-          type="text"
-          placeholder="Search by title or author"
-          onChange={(e) => setSearch(e.target.value)}
-          className="inp"
-        />
+        <input type="text" placeholder="Search by title or author" onChange={(e) => setSearch(e.target.value)} className="inp" />
       </div>
 
       <div className="book">
@@ -74,17 +63,9 @@ function Browse() {
               <h3>{item.title}</h3>
 
               {item.cover ? (
-                <img
-                  src={item.cover}
-                  width="250px"
-                  height="150px"
-                  alt="book"
-                />
+                <img src={item.cover} width="250px" height="150px" alt="book" />
               ) : (
-                <img
-                  src="https://via.placeholder.com/250x150"
-                  alt="book"
-                />
+                <img src="https://via.placeholder.com/250x150" alt="book"/>
               )}
 
               <br />
@@ -93,9 +74,7 @@ function Browse() {
 
               <h4>⭐ {item.rating}</h4>
               <p>
-                {more[index]
-                  ? item.description
-                  : item.description?.slice(0, 100)}
+                {more[index] ? item.description : item.description?.slice(0, 100)}
               </p>
 
               <button onClick={() => showMore(index)}>
@@ -104,9 +83,7 @@ function Browse() {
 
               <br />
 
-              <Link to={`/book/${item.id}`}>
-                View Details
-              </Link>
+              <Link to={`/book/${item.id}`} className="vd"> View Details </Link>
 
             </div>
           ))

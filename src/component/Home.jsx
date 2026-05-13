@@ -49,12 +49,7 @@ function Home() {
             <div key={item.id} id="book1">
               <h3>{item.title}</h3>
 
-              <img
-                src={item.cover}
-                width="150px"
-                height="200px"
-                alt="book"
-              />
+              <img src={item.cover} width="150px" height="200px" alt="book" />
               <br />
                <strong>{item.author}</strong>{" "} {item.category}
 
@@ -62,26 +57,20 @@ function Home() {
 
               <p>
 
-                {more[item.id]
-                  ? item.description
-                  : item.description?.slice(0, 100)}
+                {more[item.id] ? item.description : item.description?.slice(0, 100)}
 
               </p>
 
               <button onClick={() => showMore(item.id)}>
 
-                {more[item.id]
-                  ? "Show Less"
-                  : "Show More"}
+                {more[item.id] ? "Show Less" : "Show More"}
 
               </button>
 
               <br />
               <br />
 
-              <Link to={`/book/${item.id}`}>
-                View Details
-              </Link>
+              <Link to={`/book/${item.id}`} className="vd"> View Details </Link>
 
             </div>
 

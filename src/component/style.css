@@ -9,6 +9,10 @@
     color: #0e0e0e;
     margin: 20px;
 }
+.link:hover{
+    background-color: black;
+    color: red;
+}
 .inp{
     width: 50%;
     border: solid black 5px;
@@ -46,10 +50,17 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
 }
+img:hover{
+    transform: scale(1.1);
+}
 #book1{
     border: solid black 3px;
     padding: 10px;
     margin: 20px;
+}
+.vd:hover{
+    color: red;
+    background-color: #0c0c0c;
 }
 .bc{
     display: flex;
