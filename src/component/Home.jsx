@@ -1,15 +1,10 @@
 import { useEffect, useState } from "react";
-
 import { useDispatch, useSelector,} from "react-redux";
-
 import { fetchBooks } from "../redux/bookSlice";
-
 import { Link } from "react-router-dom";
 
 function Home() {
-
   const dispatch = useDispatch();
-
   const { books, loading } = useSelector(
     (state) => state.books
   );
@@ -37,8 +32,7 @@ function Home() {
 
   return (
     <>
-
-      <h1 className="bc">Book Collection</h1>
+      <h2 className="bc">Book Collection</h2>
 
       <div className="book">
 
@@ -49,7 +43,12 @@ function Home() {
             <div key={item.id} id="book1">
               <h3>{item.title}</h3>
 
-              <img src={item.cover} width="150px" height="200px" alt="book" />
+              <img
+                src={item.cover}
+                width="150px"
+                height="200px"
+                alt="book"
+              />
               <br />
                <strong>{item.author}</strong>{" "} {item.category}
 
@@ -75,7 +74,6 @@ function Home() {
             </div>
 
           ))
-
         )}
 
       </div>

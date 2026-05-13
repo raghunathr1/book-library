@@ -3,7 +3,20 @@
     align-items: center;
     background-color: rgb(68, 155, 150);
     color: antiquewhite;
+    border: solid black 1px;
     
+}
+#wel{
+    display: flex;
+    display: block;
+    justify-items: center;
+    height: 110px;
+    position: relative;
+    bottom: 12px;
+}
+.wel1:hover{
+    transform: scale(1.1);
+    background-color: #f6fcaa;
 }
 .link{
     color: #0e0e0e;

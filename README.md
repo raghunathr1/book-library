@@ -21,6 +21,15 @@ API Fetching
 - 404 Error Handling
 - Responsive Layout
 
+## Emoji 
+- 🤗 Smiley emoji 
+- 📚 Books
+- ✏️ Pencil
+- 📓 Book
+- 👨‍🎓 Men Study
+- 👩‍🎓 Women Study
+- 📖 open Book
+
 ## Core Features
 - Browse Books
 - Home Page
