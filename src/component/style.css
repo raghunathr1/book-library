@@ -139,6 +139,8 @@ img{
     border: solid black 5px;
     margin: 20px;
     padding: 15px;
+    background-color: #f80808;
+    color: white;
 }
 #bcBtn{
     font-size: 20px;
