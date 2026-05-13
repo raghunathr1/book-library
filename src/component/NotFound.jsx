@@ -7,16 +7,13 @@ function NotFound() {
   return (
     <div id="notfound">
 
-      <h1>404 - Page Not Found</h1>
-      <h4>Try Again ......</h4>
-
-      <h3>Invalid URL:</h3>
-
+      <h1>Invalid URL:</h1>
       <p>{location.pathname}</p>
+      <br />
+      <h2>404 - Page Not Found</h2>
+      <h4>Try Again ....With Valid URL</h4>  
 
-      <button>
-        <Link to="/">Go To Home</Link>
-      </button>
+      <button> <Link to="/">Go To Home</Link> </button>
 
     </div>
   );
