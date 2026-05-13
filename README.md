@@ -1,16 +1,42 @@
-# React + Vite
+# Book Library Application
+- A fully functional Book Library Web Application built using React.js, Redux Toolkit, React Router DOM, and the Open Library API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Github Link 
+- https://github.com/raghunathr1/Book-Library
 
-Currently, two official plugins are available:
+## API Used
+- https://openlibrary.org/subjects/fiction.json
+- https://openlibrary.org/subjects/nonfiction.json
+- https://openlibrary.org/subjects/science_fiction.json
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Functionalities Implemented
+API Fetching
+- Redux Toolkit Integration
+- Dynamic Routing
+- Search Functionality
+- Category Filtering
+- Add Book Feature
+- Form Validation
+- Book Details Page
+- 404 Error Handling
+- Responsive Layout
 
-## React Compiler
+## Core Features
+- Browse Books
+- Home Page
+- Add New Book
+- Add New Book
+- Custom 404 Page
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to Run the Application
+1. Extract the ZIP File
+    - Extract the submitted project ZIP file.
+2. Open Project Folder
+    - Open the project folder in VS Code.
+3. Install Dependencies
+    - Open terminal and run:
+    - npm install
+4. Start the Development Server
+    - Run the command:-  npm run dev
+5. Open in Browser
+    - http://localhost:5173
